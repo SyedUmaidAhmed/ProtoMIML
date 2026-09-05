@@ -1,0 +1,106 @@
+{
+  "scene": {
+    "HammingLoss": [
+      0.172875,
+      0.008252840420122028
+    ],
+    "OneError": [
+      0.2875,
+      0.023184046238739257
+    ],
+    "Coverage": [
+      0.89,
+      0.05989574275355471
+    ],
+    "RankingLoss": [
+      0.15088541666666666,
+      0.01278738646495704
+    ],
+    "AveragePrecision": [
+      0.8120381944444445,
+      0.01506585778809839
+    ],
+    "MacroF1": [
+      0.6058529470305485,
+      0.031614528063395146
+    ],
+    "MicroF1": [
+      0.6093700168929735,
+      0.02782972376047156
+    ]
+  },
+  "per_fold": [
+    {
+      "HammingLoss": 0.184,
+      "OneError": 0.31,
+      "Coverage": 0.98,
+      "RankingLoss": 0.17166666666666663,
+      "AveragePrecision": 0.7945833333333334,
+      "MacroF1": 0.5893453643007344,
+      "MicroF1": 0.5982532751091703
+    },
+    {
+      "HammingLoss": 0.177,
+      "OneError": 0.28,
+      "Coverage": 0.8500000000000001,
+      "RankingLoss": 0.14875,
+      "AveragePrecision": 0.8174166666666669,
+      "MacroF1": 0.572881458548596,
+      "MicroF1": 0.5775656324582339
+    },
+    {
+      "HammingLoss": 0.168,
+      "OneError": 0.28,
+      "Coverage": 0.865,
+      "RankingLoss": 0.14583333333333331,
+      "AveragePrecision": 0.8160833333333334,
+      "MacroF1": 0.5858484837125614,
+      "MicroF1": 0.5922330097087378
+    },
+    {
+      "HammingLoss": 0.172,
+      "OneError": 0.285,
+      "Coverage": 0.9550000000000001,
+      "RankingLoss": 0.15708333333333332,
+      "AveragePrecision": 0.8077916666666667,
+      "MacroF1": 0.620206182423489,
+      "MicroF1": 0.6211453744493393
+    },
+    {
+      "HammingLoss": 0.157,
+      "OneError": 0.245,
+      "Coverage": 0.7849999999999999,
+      "RankingLoss": 0.125,
+      "AveragePrecision": 0.8431250000000001,
+      "MacroF1": 0.6639662889053134,
+      "MicroF1": 0.6594360086767896
+    },
+    {
+      "HammingLoss": 0.182,
+      "OneError": 0.31,
+      "Coverage": 0.94,
+      "RankingLoss": 0.15958333333333333,
+      "AveragePrecision": 0.7994444444444444,
+      "MacroF1": 0.5634467046937927,
+      "MicroF1": 0.5727699530516432
+    },
+    {
+      "HammingLoss": 0.176,
+      "OneError": 0.32,
+      "Coverage": 0.8700000000000001,
+      "RankingLoss": 0.155,
+      "AveragePrecision": 0.7966111111111112,
+      "MacroF1": 0.6193408183692115,
+      "MicroF1": 0.6173913043478261
+    },
+    {
+      "HammingLoss": 0.167,
+      "OneError": 0.27,
+      "Coverage": 0.875,
+      "RankingLoss": 0.14416666666666667,
+      "AveragePrecision": 0.8212500000000001,
+      "MacroF1": 0.6317882752906894,
+      "MicroF1": 0.6361655773420479
+    }
+  ]
+}

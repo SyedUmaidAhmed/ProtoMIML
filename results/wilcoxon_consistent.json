@@ -1,0 +1,162 @@
+{
+ "scene": {
+  "HammingLoss": {
+   "p": 0.001,
+   "mean": 0.1692,
+   "beats": true,
+   "ties": false
+  },
+  "OneError": {
+   "p": 0.0039,
+   "mean": 0.2895,
+   "beats": true,
+   "ties": false
+  },
+  "Coverage": {
+   "p": 0.001,
+   "mean": 0.877,
+   "beats": true,
+   "ties": false
+  },
+  "RankingLoss": {
+   "p": 0.001,
+   "mean": 0.1518,
+   "beats": true,
+   "ties": false
+  },
+  "AveragePrecision": {
+   "p": 0.001,
+   "mean": 0.8112,
+   "beats": true,
+   "ties": false
+  }
+ },
+ "reuters": {
+  "HammingLoss": {
+   "p": 0.1162,
+   "mean": 0.0312,
+   "beats": true,
+   "ties": false
+  },
+  "OneError": {
+   "p": 0.5996,
+   "mean": 0.057,
+   "beats": false,
+   "ties": false
+  },
+  "Coverage": {
+   "p": 0.4902,
+   "mean": 0.2875,
+   "beats": false,
+   "ties": false
+  },
+  "RankingLoss": {
+   "p": 0.3848,
+   "mean": 0.0196,
+   "beats": true,
+   "ties": false
+  },
+  "AveragePrecision": {
+   "p": 0.7217,
+   "mean": 0.9627,
+   "beats": false,
+   "ties": false
+  }
+ },
+ "letter_carroll": {
+  "HammingLoss": {
+   "p": 0.1133,
+   "mean": 0.1214,
+   "beats": true,
+   "ties": false
+  },
+  "OneError": {
+   "p": 0.0469,
+   "mean": 0.0625,
+   "beats": true,
+   "ties": false
+  },
+  "Coverage": {
+   "p": 0.001,
+   "mean": 7.15,
+   "beats": true,
+   "ties": false
+  },
+  "RankingLoss": {
+   "p": 0.001,
+   "mean": 0.0696,
+   "beats": true,
+   "ties": false
+  },
+  "AveragePrecision": {
+   "p": 0.001,
+   "mean": 0.8297,
+   "beats": true,
+   "ties": false
+  }
+ },
+ "letter_frost": {
+  "HammingLoss": {
+   "p": 0.0762,
+   "mean": 0.1253,
+   "beats": true,
+   "ties": false
+  },
+  "OneError": {
+   "p": 0.0029,
+   "mean": 0.0643,
+   "beats": true,
+   "ties": false
+  },
+  "Coverage": {
+   "p": 0.002,
+   "mean": 7.2929,
+   "beats": true,
+   "ties": false
+  },
+  "RankingLoss": {
+   "p": 0.001,
+   "mean": 0.0807,
+   "beats": true,
+   "ties": false
+  },
+  "AveragePrecision": {
+   "p": 0.001,
+   "mean": 0.8245,
+   "beats": true,
+   "ties": false
+  }
+ },
+ "MSCV2": {
+  "HammingLoss": {
+   "p": 0.001,
+   "mean": 0.058,
+   "beats": true,
+   "ties": false
+  },
+  "OneError": {
+   "p": 0.001,
+   "mean": 0.1373,
+   "beats": true,
+   "ties": false
+  },
+  "Coverage": {
+   "p": 0.001,
+   "mean": 3.0847,
+   "beats": true,
+   "ties": false
+  },
+  "RankingLoss": {
+   "p": 0.001,
+   "mean": 0.0432,
+   "beats": true,
+   "ties": false
+  },
+  "AveragePrecision": {
+   "p": 0.001,
+   "mean": 0.8517,
+   "beats": true,
+   "ties": false
+  }
+ }
+}

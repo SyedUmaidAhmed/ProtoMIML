@@ -1,0 +1,43 @@
+{
+  "scene": {
+    "HammingLoss": [
+      0.189,
+      0.0
+    ],
+    "OneError": [
+      0.315,
+      0.0
+    ],
+    "Coverage": [
+      1.105,
+      0.0
+    ],
+    "RankingLoss": [
+      0.19875,
+      0.0
+    ],
+    "AveragePrecision": [
+      0.7787083333333333,
+      0.0
+    ],
+    "MacroF1": [
+      0.5335121935121936,
+      0.0
+    ],
+    "MicroF1": [
+      0.548926014319809,
+      0.0
+    ]
+  },
+  "per_fold": [
+    {
+      "HammingLoss": 0.189,
+      "OneError": 0.315,
+      "Coverage": 1.105,
+      "RankingLoss": 0.19875,
+      "AveragePrecision": 0.7787083333333333,
+      "MacroF1": 0.5335121935121936,
+      "MicroF1": 0.548926014319809
+    }
+  ]
+}
