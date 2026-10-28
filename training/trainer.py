@@ -195,6 +195,10 @@ class ProtoMIMLTrainer:
         best_score = float('-inf')
         patience_counter = 0
         best_state = None
+        # Checkpoint selection and early stopping start at this Phase-2 epoch
+        # (0 = original behaviour; 70 = only fully fused checkpoints, i.e. after
+        # the fusion ramp has completed -- used by the revision's fullfuse runs)
+        select_from = self.config.get('phase2_select_from', 0)
 
         for epoch in range(max_epochs):
             self.model.train()
@@ -264,6 +268,8 @@ class ProtoMIMLTrainer:
                       f"Loss: {epoch_loss/max(num_batches,1):.4f} | "
                       f"Val AP: {val_ap:.4f}{swa_str}", flush=True)
 
+            if epoch < select_from:
+                continue
             if val_ap > best_score:
                 best_score = val_ap
                 patience_counter = 0

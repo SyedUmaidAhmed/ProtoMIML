@@ -1,0 +1,54 @@
+{
+ "standard": {
+  "scene": {
+   "models": 50,
+   "gates_at_init": 23
+  },
+  "reuters": {
+   "models": 50,
+   "gates_at_init": 39
+  },
+  "letter_carroll": {
+   "models": 50,
+   "gates_at_init": 25
+  },
+  "letter_frost": {
+   "models": 50,
+   "gates_at_init": 29
+  },
+  "MSCV2": {
+   "models": 50,
+   "gates_at_init": 20
+  },
+  "total": {
+   "models": 250,
+   "gates_at_init": 136
+  }
+ },
+ "fullfuse": {
+  "scene": {
+   "models": 50,
+   "gates_at_init": 0
+  },
+  "reuters": {
+   "models": 50,
+   "gates_at_init": 0
+  },
+  "letter_carroll": {
+   "models": 50,
+   "gates_at_init": 0
+  },
+  "letter_frost": {
+   "models": 50,
+   "gates_at_init": 0
+  },
+  "MSCV2": {
+   "models": 50,
+   "gates_at_init": 0
+  },
+  "total": {
+   "models": 250,
+   "gates_at_init": 0
+  }
+ }
+}

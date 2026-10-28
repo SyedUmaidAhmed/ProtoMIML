@@ -1,0 +1,59 @@
+--model protomiml --protocol holdout --dataset reuters --repeats 30
+--model protomiml --protocol holdout --dataset scene --repeats 30
+--model protomiml --dataset reuters
+--model protomiml --dataset scene
+--model protomiml_noproto --dataset reuters
+--model protomiml_noproto --dataset scene
+--model abmil_per_label --dataset reuters
+--model abmil_per_label --dataset scene
+--model protomiml --dataset MSCV2
+--model protomiml --dataset letter_carroll
+--model protomiml --dataset letter_frost
+--model protomiml_noproto --dataset MSCV2
+--model protomiml_noproto --dataset letter_carroll
+--model protomiml_noproto --dataset letter_frost
+--model abmil_per_label --dataset MSCV2
+--model abmil_per_label --dataset letter_carroll
+--model abmil_per_label --dataset letter_frost
+--model abmil --dataset reuters
+--model abmil --dataset scene
+--model abmil --dataset MSCV2
+--model abmil --dataset letter_carroll
+--model abmil --dataset letter_frost
+--model protomiml_nosam --dataset reuters
+--model protomiml_nosam --dataset scene
+--model protomiml_nosam --dataset MSCV2
+--model protomiml_nosam --dataset letter_carroll
+--model protomiml_nosam --dataset letter_frost
+--model protomiml --protocol cvens --dataset reuters
+--model protomiml --protocol cvens --dataset scene
+--model protomiml --protocol cvens --dataset MSCV2
+--model protomiml --protocol cvens --dataset letter_carroll
+--model protomiml --protocol cvens --dataset letter_frost
+--model protomiml --dataset yeast
+--model protomiml --dataset yeast_si
+--model abmil_per_label --dataset yeast
+--model abmil_per_label --dataset yeast_si
+--model protomiml_noproto --dataset yeast
+--model protomiml --dataset letter_carroll --val-seed 1
+--model protomiml --dataset letter_carroll --val-seed 2
+--model protomiml --dataset letter_carroll --val-seed 3
+--model protomiml --dataset letter_carroll --val-seed 4
+--model protomiml --dataset letter_frost --val-seed 1
+--model protomiml --dataset letter_frost --val-seed 2
+--model protomiml --dataset letter_frost --val-seed 3
+--model protomiml --dataset letter_frost --val-seed 4
+--model protomiml --dataset MSCV2 --val-seed 1
+--model protomiml --dataset MSCV2 --val-seed 2
+--model protomiml --dataset MSCV2 --val-seed 3
+--model protomiml --dataset MSCV2 --val-seed 4
+--model protomiml_fullfuse --dataset reuters
+--model protomiml_fullfuse --dataset scene
+--model protomiml_fullfuse --dataset MSCV2
+--model protomiml_fullfuse --dataset letter_carroll
+--model protomiml_fullfuse --dataset letter_frost
+--model protomiml_noproto_fullfuse --dataset reuters
+--model protomiml_noproto_fullfuse --dataset scene
+--model protomiml_noproto_fullfuse --dataset MSCV2
+--model protomiml_noproto_fullfuse --dataset letter_carroll
+--model protomiml_noproto_fullfuse --dataset letter_frost
